@@ -1,0 +1,44 @@
+/* ESTILOS DE TEXTO */
+
+h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-style: italic;
+    color: blue;
+    cursor: pointer;
+
+    /* ESPACIADO LETRAS */
+    letter-spacing: 10px;
+
+    /* ESPACIADO PALABRAS */
+    *word-spacing: 200px;
+
+    /* INTERLINEADO */
+    line-height: 200px;
+
+    /* SANGRIA */
+    *text-indent: 100px;
+
+    /* ALINEACION DEL TEXTO */
+    text-align: center;
+
+    /* MAYUSCULAS Y MINUSCULAS */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+    font-family: 'Shadows Into Light', cursive;
+    src: url(Archivos\ShadowsIntoLight-Regular.ttf);
+}
+/* Fonts Basicas */
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Externa */
+p{
+    font-family: 'Anton', sans-serif;
+}
+
+/* Descargada */
+p{
+    font-family: 'Shadows Into Light', cursive;
+}

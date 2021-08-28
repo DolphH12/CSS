@@ -1,0 +1,38 @@
+div {
+    width: 500px;
+    height: 500px;
+
+    /* Palabra clave */
+    background-color: red;
+
+    /* HEXADECIMAL */
+    background-color: #082032;
+
+    /* RGB */
+    background-color: rgb(255, 76, 41);
+
+    /* HSL  */
+    background-color: hsl(250deg, 30%, 50%);
+
+
+    /* TRASNPARENCIA  */
+    background-color: transparent;
+    background-color: #082032f1;
+    background-color: rgba(255, 76, 41, 80%);
+    background-color: hsla(250deg, 30%, 50%, 60%);
+
+    /* Degradado */
+    background: linear-gradient(90deg, blue, red);
+    background: radial-gradient(yellow, orange, red);
+
+    /* PRUEBA */
+    background: rgba(83, 168, 3, 1);
+    background: -moz-linear-gradient(-45deg, rgba(83, 168, 3, 1) 0%, rgba(83, 168, 3, 1) 18%, rgba(3, 143, 31, 1) 44%, rgba(2, 54, 23, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(83, 168, 3, 1)), color-stop(18%, rgba(83, 168, 3, 1)), color-stop(44%, rgba(3, 143, 31, 1)), color-stop(100%, rgba(2, 54, 23, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(83, 168, 3, 1) 0%, rgba(83, 168, 3, 1) 18%, rgba(3, 143, 31, 1) 44%, rgba(2, 54, 23, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(83, 168, 3, 1) 0%, rgba(83, 168, 3, 1) 18%, rgba(3, 143, 31, 1) 44%, rgba(2, 54, 23, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(83, 168, 3, 1) 0%, rgba(83, 168, 3, 1) 18%, rgba(3, 143, 31, 1) 44%, rgba(2, 54, 23, 1) 100%);
+    background: linear-gradient(135deg, rgba(83, 168, 3, 1) 0%, rgba(83, 168, 3, 1) 18%, rgba(3, 143, 31, 1) 44%, rgba(2, 54, 23, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#53a803', endColorstr='#023617', GradientType=1);
+
+}

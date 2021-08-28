@@ -1,0 +1,24 @@
+h1{
+    color: blueviolet;
+}
+
+#primerparrafo{
+    color: green;
+}
+
+.grupodeparrafos{
+    color: chocolate;
+}
+
+/* hover */
+h1:hover{
+    color: black;
+}
+
+input[type="text"]{
+    background: blue;
+}
+
+*{
+   color: red !important;
+}

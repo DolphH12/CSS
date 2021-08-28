@@ -1,0 +1,16 @@
+
+#Contenedor p{
+    color: yellowgreen;
+}
+
+#Contenedor p:first-child{
+    color: blue;
+}
+
+#Contenedor p:nth-child(2){
+    color: red;
+}
+
+#Contenedor p:last-child{
+    color:darkorange;
+}
