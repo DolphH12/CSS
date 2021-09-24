@@ -1,0 +1,41 @@
+#contenedor{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+
+    /* FONDO PLANO */
+    background: rgb(127, 127, 236);
+    background: rgba(127, 127, 236, 0.397);
+
+    /* FONDO DEGRADADO */
+    background: linear-gradient(90deg, blue, orange);
+    background: radial-gradient(orange, green);
+
+    /* IMAGEN DE FONDO */
+    /* background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center; */
+
+    background: black url(../images/fondo.jpg) no-repeat scroll center;
+
+    background-size: cover;
+}
+
+.contenido{
+    margin: auto;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(127, 255, 212, 0.295);
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    padding-top: 40%;
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}

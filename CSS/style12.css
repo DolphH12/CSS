@@ -1,0 +1,30 @@
+ul{ 
+    background-color: rgb(5, 155, 255);
+    width: 20%;
+    padding: 0;
+    margin: auto;
+    margin-top: 50px;
+    display: none;
+}
+
+ul li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+ul li:hover{
+    background-color: rgb(4, 78, 128);
+}
+
+div:hover ul{
+    display: block;
+}

@@ -1,0 +1,43 @@
+table{
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-collapse: collapse;
+}
+
+table th, table td{
+    border: 1px solid rgb(78, 78, 78);
+    padding: 5px 10px;
+}
+
+table th, table td:first-child{
+    background-color: rgb(8, 159, 247);
+    color: white;
+    font-weight: 600;
+    width: 100px;
+}
+
+table tr:nth-child(odd){
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+table tr:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+a{
+    display: block;
+    margin: auto;
+    background-color: rgb(100, 31, 31);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 5px 4px 0px rgba(0, 0, 0, 0.055);
+    transition: all 0.5s;
+}
+
+a:hover{
+    background-color: rgb(155, 5, 5);
+}

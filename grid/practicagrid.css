@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(207, 207, 207);
+    color: black;
+}
+
+.grid{
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, auto);
+    grid-template-areas: "header header header header"
+                         "galeria contenido contenido redes"
+                         "galeria contenido contenido redes"
+                         "articulos contenido contenido redes"
+                         "articulos noticias noticias noticias"
+                         "footer footer footer footer";
+}
+
+.grid header{
+    background: black;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+.grid .contenido{
+    background-color: white;
+    grid-area: contenido;
+    padding: 20px;
+}
+
+.grid .galeria{
+    background-color: blueviolet;
+    grid-area: galeria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.grid aside{
+    background-color: cyan;
+    grid-area: redes;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid .tienda{
+    background-color: greenyellow;
+    grid-area: articulos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.grid .noticias{
+    background-color: orange;
+    grid-area: noticias;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.grid footer{
+    background-color: gray;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+@media screen and (max-width: 700px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(7, auto);
+        grid-template-areas: "header header"
+                             "contenido contenido"
+                             "contenido contenido"
+                             "galeria articulos"
+                             "noticias noticias"
+                             "redes redes"
+                             "footer footer";
+    }
+}
